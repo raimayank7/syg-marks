@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://marks.shareyourgroup.com/sitemap.xml

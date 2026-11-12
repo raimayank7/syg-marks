@@ -1,0 +1,18 @@
+/* Marks and Grades: own styles on top of the shared frame */
+.mk-lead{font-size:1.08rem;color:var(--soft)}
+.mk-eq{font-family:var(--mono);background:var(--surface2);border-radius:8px;padding:10px 14px;overflow-x:auto}
+.mk-cta{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}
+.mk-h{margin:0 0 10px;font-size:1.15rem}
+.btn.sm{min-height:40px;display:inline-flex;align-items:center}
+.grid a{flex-wrap:wrap}.grid a small{white-space:normal}
+input[inputmode],.mk-row input,.mk-row select{width:100%;min-height:46px;padding:10px 12px;font:inherit;font-size:1rem;color:var(--ink);background:var(--field);border:1px solid var(--field-line);border-radius:10px;min-width:0}
+.mk-rows{display:grid;gap:8px;margin:0 0 10px}
+.mk-row{display:grid;gap:8px;grid-template-columns:minmax(0,2fr) minmax(0,1fr) minmax(0,1fr) 44px;align-items:center}
+.mk-row2{grid-template-columns:minmax(0,1fr) minmax(0,1.3fr) 44px}
+.mk-x{width:44px;height:44px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--soft);font-size:1.3rem;line-height:1;cursor:pointer}
+.mk-x:hover{color:var(--bad);border-color:var(--bad)}
+.finder+.finder,.result+.finder{margin-top:26px}
+.facts dd{overflow-wrap:anywhere}
+[hidden]{display:none!important}
+@media (max-width:420px){.mk-row{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr) minmax(0,1fr) 40px;gap:6px}.mk-row input{padding:10px 8px}.mk-x{width:40px}}
+@media print{.mk-cta,.finder{display:none!important}}
